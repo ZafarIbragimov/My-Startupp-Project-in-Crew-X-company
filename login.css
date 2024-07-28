@@ -12,17 +12,17 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #223243;
+    background: #f89cab;
 }
 
 .container {
     padding: 40px;
     border-radius: 20px;
-    border: 8px solid #223243;
+    border: 4px solid #050505;
     box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
-    5px 5px 15px rgba(0, 0, 0, 0.35),
+    5px 5px 15px rgba(243, 243, 243, 0.35),
     inset -5px -5px 15px rgba(255, 255, 255, 0.1),
-    inset 5px 5px 15px rgba(0, 0, 0, 0.35);
+    inset 5px 5px 15px rgba(248, 247, 247, 0.35);
 }
 
 .container .form {
@@ -43,7 +43,7 @@ body {
 }
 
 .container .form h2 {
-    color: #fff;
+    color: #020202;
     font-weight: 500;
     letter-spacing: 0.1em;
 }
@@ -57,14 +57,14 @@ body {
     padding: 12px 10px 12px 48px;
     border: none;
     width: 100%;
-    background: #223243;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    color: #fff;
+    background: #f9f6f7;
+    border: 1px solid rgba(13, 13, 13, 0.1);
+    color: #020202;
     font-weight: 300;
     border-radius: 25px;
     font-size: 1em;
-    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
-    5px 5px 15px rgba(0, 0, 0, 0.35);
+    box-shadow: -5px -5px 15px rgba(15, 14, 14, 0.1),
+    5px 5px 15px rgba(11, 11, 11, 0.35);
     transition: 0.5s;
     outline: none;
 }
@@ -78,14 +78,14 @@ body {
     font-weight: 300;
     transition: 0.5s;
     letter-spacing: 0.05em;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
 }
 
 .container .form .inputBox input:valid ~ span,
 .container .form .inputBox input:focus ~ span {
-    color: #00dfc4;
-    border: 1px solid #00dfc4;
-    background: #223243;
+    color: #060606;
+    border: 1px solid #0a0a0a;
+    background: #0e0e0e;
     transform: translateX(25px) translateY(-7px);
     font-size: 0.6em;
     padding: 0 8px;
@@ -95,7 +95,7 @@ body {
 
 .container .form .inputBox input:valid,
 .container .form .inputBox input:focus {
-    border: 1px solid #00dfc4;
+    border: 1px solid #090909;
 }
 
 .container .form .inputBox i {
@@ -105,8 +105,8 @@ body {
     width: 25px;
     padding: 2px 0;
     padding-right: 8px;
-    color: #00dfc4;
-    border-right: 1px solid #00dfc4;
+    color: #0c0c0c;
+    border-right: 1px solid #090909;
 }
 
 .container .form .inputBox input[type="submit"] {
@@ -122,12 +122,12 @@ body {
 }
 
 .container .form p {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(10, 10, 10);
     font-size: 0.75em;
     font-weight: 300;
 }
 
 .container .form p a {
     font-weight: 500;
-    color: #fff;
+    color: #0e0e0e;
 }

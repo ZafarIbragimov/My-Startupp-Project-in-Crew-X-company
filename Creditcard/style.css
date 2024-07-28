@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to right top, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
+    background-color: #f89cab;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -58,7 +58,7 @@ body {
     grid-template-areas: "name name""number number""expiration security";
     max-width: 400px;
     padding: 20px;
-    color: #707070;
+    color: #faf8f8;
 }
 
 label {
